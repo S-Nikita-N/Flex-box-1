@@ -16,8 +16,6 @@ import torch
 import transformers
 import torch.nn as nn
 from transformers import AutoModel, AutoModelForSequenceClassification, AutoTokenizer
-# from transformers import TrainingArguments, Trainer
-# from datasets import load_metric, Dataset
 from sklearn.metrics import classification_report, f1_score
 from tqdm.auto import tqdm
 from torch.utils.data import DataLoader
